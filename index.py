@@ -24,7 +24,7 @@ def main():
     with col1:
         st.title("LLM Leaderboard")
 
-        filter=st.multiselect("Filter by benchmark",df.columns.tolist())
+        filter=st.multiselect("Filter by columns",df.columns.tolist())
         filter=filter if filter else df.columns.tolist()
         st.dataframe(df[filter],use_container_width=True)
 
@@ -40,7 +40,7 @@ def main():
             "MedQA Zero-Shot with Base Prompt":[ 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
         }
 
-        filter=st.selectbox("Filter by columns",columns[benchmark])
+        filter=st.selectbox("Filter by benchmark",columns[benchmark])
         max_index = df[filter].idxmax()
 
         # Assign colors: highlight max in green, others in light gray
