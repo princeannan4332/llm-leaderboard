@@ -1,0 +1,8 @@
+Model Name,MCQ Accuracy,MCQ BertScore F1,MCQ Avg Rouge,SAQ BertScore F1,SAQ Avg Rouge,Consumer Queries BertScore F1,Consumer Queries Avg Rouge
+OpenBioLLM-8B-Instruct,0.5193,0.8503,0.1414,,,,
+OpenBioLLM-70B-Instruct,0.7211,0.8594,0.1829,0.8533,0.1668,,
+Meta-Llama-3-8B-Instruct,0.6676,0.8625,0.24,,,,
+Meta-Llama-3-70B-Instruct,0.7963,0.8683,0.2513,,,,
+Mixtral-8x7B-Instruct-v0.1,0.7203,0.8644,0.2492,0.8691,0.2309,,
+Gemma-7B-Instruct,,,,,,,
+BioMistral-7B,,,,,,,
