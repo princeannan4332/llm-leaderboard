@@ -24,7 +24,7 @@ def main():
     with col1:
         st.title("LLM Leaderboard")
 
-        filter=st.multiselect("Filter by columns",df.columns.tolist())
+        filter=st.multiselect("Filter by benchmark",df.columns.tolist())
         filter=filter if filter else df.columns.tolist()
         st.dataframe(df[filter],use_container_width=True)
 
