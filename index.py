@@ -33,11 +33,11 @@ def main():
 
         columns={
             "Unexplained":['Afrimed-QA v1', 'USMLE', 'AfriMed-QA Experts', 'AFR-MCQ','AFR-SAQ BertScore'],
-            "Explained":['MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
-            "Zero Shot with Base Prompt": ['MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
-            "Zero-Shot with Instruct Prompt":['MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
-            "3-Shot to 5-Shot with Instruct Prompt":['MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
-            "MedQA Zero-Shot with Base Prompt":[ 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
+            "Explained":[ 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
+            "Zero Shot with Base Prompt": ['Model Name', 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
+            "Zero-Shot with Instruct Prompt":['Model Name', 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
+            "3-Shot to 5-Shot with Instruct Prompt":['Model Name', 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
+            "MedQA Zero-Shot with Base Prompt":['Model Name', 'MCQ Accuracy', 'MCQ BertScore F1', 'MCQ Avg Rouge','SAQ BertScore F1', 'SAQ Avg Rouge', 'Consumer Queries BertScore F1','Consumer Queries Avg Rouge'],
         }
 
         filter=st.selectbox("Filter by benchmark",columns[benchmark])
