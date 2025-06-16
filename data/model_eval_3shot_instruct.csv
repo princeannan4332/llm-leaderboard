@@ -1,9 +1,9 @@
 Model Name,MCQ Accuracy,MCQ BertScore F1,MCQ Avg Rouge,SAQ BertScore F1,SAQ Avg Rouge,Consumer Queries BertScore F1,Consumer Queries Avg Rouge
-GPT-4o,0.7427,0.861,0.2256,,,,
-Claude 3 Opus,0.763,0.8572,0.2181,,,,
-Gemini Ultra,0.808,0.875,0.2519 ,,,,
-Gemini pro,0.7013,0.8725,0.2548,,,
-MedLM,0.7013,0.8725,0.2548,,,,
-MedPalm 2,0.751,0.8708,0.2474,,,
-Meta-Llama-3-70B-Instruct,0.7812,,,,,,
-OpenBioLLM-70B,0.7891,,,,,,
+GPT-4o,0.7427,0.861,0.2256,0.0,0.0,0.0,0.0
+Claude 3 Opus,0.763,0.8572,0.2181,0.0,0.0,0.0,0.0
+Gemini Ultra,0.808,0.875,0.2519,0.0,0.0,0.0,0.0
+Gemini pro,0.7013,0.8725,0.2548,0.0,0.0,0.0,0.0
+MedLM,0.7013,0.8725,0.2548,0.0,0.0,0.0,0.0
+MedPalm 2,0.751,0.8708,0.2474,0.0,0.0,0.0,0.0
+Meta-Llama-3-70B-Instruct,0.7812,0.0,0.0,0.0,0.0,0.0,0.0
+OpenBioLLM-70B,0.7891,0.0,0.0,0.0,0.0,0.0,0.0
