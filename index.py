@@ -13,8 +13,8 @@ def main():
         "Explained":"./data/model_explanations.csv",
         "Zero Shot with Base Prompt":"./data/model_zero_shot.csv",
         "Zero-Shot with Instruct Prompt":"./data/model_eval_zero_shot_instruct.csv",
-        "3-Shot to 5-Shot with Instruct Prompt":"./data/model_eval_zero_shot_base2.csv",
-        "MedQA Zero-Shot with Base Prompt":"./data/model_eval_3shot_instruct.csv",
+        "3-Shot to 5-Shot with Instruct Prompt":"./data/model_eval_3shot_instruct.csv",
+        "MedQA Zero-Shot with Base Prompt":"./data/model_eval_zero_shot_base2.csv",
     }
 
     df=pd.read_csv(paths[benchmark])
