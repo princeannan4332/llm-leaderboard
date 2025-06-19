@@ -49,7 +49,7 @@ def main():
         st.title("Analysis")
         mode = st.selectbox("Select Mode", ["Compare All LLMs Across  Specific Datasets Benchmark", "Compare Specific LLMs Across Specific Datasets Benchmark"])
 
-        if mode == "Compare All LLMs Across  Specific Dataset Benchmark":
+        if mode == "Compare All LLMs Across  Specific Datasets Benchmark":
             filter = st.selectbox("Filter by benchmark", columns[benchmark])
             max_index = df[filter].idxmax()
 
