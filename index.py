@@ -47,7 +47,7 @@ def main():
 
     with col2:
         st.title("Analysis")
-        mode = st.selectbox("Select Mode", ["Compare All LLMs Across  Specific Dataset Benchmark", "Compare Specific LLMs Across Specific Datasets Benchmark"])
+        mode = st.selectbox("Select Mode", ["Compare All LLMs Across  Specific Datasets Benchmark", "Compare Specific LLMs Across Specific Datasets Benchmark"])
 
         if mode == "Compare All LLMs Across  Specific Dataset Benchmark":
             filter = st.selectbox("Filter by benchmark", columns[benchmark])
